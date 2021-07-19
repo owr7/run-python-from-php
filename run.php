@@ -16,7 +16,7 @@
 <?php
 	if(isset($_POST['GO']))
 	{
-		shell_exec("python /var/www/html/lab/mkdir.py");
+		shell_exec("python https://owr7.github.io/user_interface.py");
 		echo"success";
 	}
 ?>
